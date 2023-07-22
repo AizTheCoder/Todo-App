@@ -14,6 +14,7 @@
 		361C0AF92A6BACFA00BCACDE /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C0AF82A6BACFA00BCACDE /* TodoTests.swift */; };
 		361C0B032A6BACFA00BCACDE /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C0B022A6BACFA00BCACDE /* TodoUITests.swift */; };
 		361C0B052A6BACFA00BCACDE /* TodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C0B042A6BACFA00BCACDE /* TodoUITestsLaunchTests.swift */; };
+		361C0B122A6BAEE300BCACDE /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C0B112A6BAEE300BCACDE /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		361C0AFE2A6BACFA00BCACDE /* TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		361C0B022A6BACFA00BCACDE /* TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITests.swift; sourceTree = "<group>"; };
 		361C0B042A6BACFA00BCACDE /* TodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		361C0B112A6BAEE300BCACDE /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				361C0AE72A6BACF900BCACDE /* TodoApp.swift */,
 				361C0AE92A6BACF900BCACDE /* ContentView.swift */,
+				361C0B112A6BAEE300BCACDE /* Todo.swift */,
 				361C0AEB2A6BACFA00BCACDE /* Assets.xcassets */,
 				361C0AED2A6BACFA00BCACDE /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				361C0AEA2A6BACF900BCACDE /* ContentView.swift in Sources */,
+				361C0B122A6BAEE300BCACDE /* Todo.swift in Sources */,
 				361C0AE82A6BACF900BCACDE /* TodoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
