@@ -6,9 +6,10 @@
 //
 
 import Foundation
-struct Todo : Identifiable{
+struct Todo : Identifiable , Codable{
     // id :Int
     let id = UUID()
     var title: String
+    var subtitle = ""
     var isCompleted = false
 }
