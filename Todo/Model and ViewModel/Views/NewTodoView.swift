@@ -1,9 +1,3 @@
-//
-//  NewTodoView.swift
-//  Todo
-//
-//  Created by Muhammed Aiz on 29/07/2023.
-//
 import SwiftUI
 
 struct NewTodoView: View {
